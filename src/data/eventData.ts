@@ -1,5 +1,12 @@
 import { AgendaItem, Guest, WorkshopLink, EventInfo } from '../types';
 
+import andresPelaezImage from '../assets/images/andres-pelaez.jpeg';
+import carlosCastanoImage from '../assets/images/carlos-castano.png';
+import linaCoralImage from '../assets/images/lina-coral.png';
+import socratesSuazaImage from '../assets/images/socrates-suaza.png';
+import sandraLoaizaImage from '../assets/images/sandra-loaiza.png';
+import olgaRamosImage from '../assets/images/olga-ramos.png';
+
 export const EVENT_INFO: EventInfo = {
   edition: 'III Encuentro de',
   title: 'Investigación Escolar',
@@ -123,6 +130,7 @@ export const GUESTS_DATA: Guest[] = [
     id: 'andres-pelaez',
     name: 'Andrés Peláez Cárdenas',
     initials: 'AP',
+    image: andresPelaezImage,
     role: 'Conferencista central',
     type: 'conference',
     topic: 'Design Thinking como herramienta viva para la investigación escolar',
@@ -135,6 +143,7 @@ export const GUESTS_DATA: Guest[] = [
     id: 'carlos-castano',
     name: 'Carlos Castaño Moncada',
     initials: 'CC',
+    image: carlosCastanoImage,
     role: 'Facilitador de taller',
     type: 'workshop',
     topic: 'Escritura creativa',
@@ -149,6 +158,7 @@ export const GUESTS_DATA: Guest[] = [
     id: 'socrates-suaza',
     name: 'Sócrates Suaza Velásquez',
     initials: 'SS',
+    image: socratesSuazaImage,
     role: 'Facilitador de taller',
     type: 'workshop',
     topic: 'Escritura creativa',
@@ -163,6 +173,7 @@ export const GUESTS_DATA: Guest[] = [
     id: 'lina-coral',
     name: 'Lina Marcela Coral Villota',
     initials: 'LC',
+    image: linaCoralImage,
     role: 'Facilitadora de taller',
     type: 'workshop',
     topic: 'Reel o video corto para narrar la escuela',
@@ -177,6 +188,7 @@ export const GUESTS_DATA: Guest[] = [
     id: 'olga-ramos',
     name: 'Olga Lucía Ramos Reyes',
     initials: 'OR',
+    image: olgaRamosImage,
     role: 'Facilitadora de taller',
     type: 'workshop',
     topic: 'Cuerpo y Mediación',
@@ -192,6 +204,7 @@ export const GUESTS_DATA: Guest[] = [
     id: 'sandra-loaiza',
     name: 'Sandra Loaiza Marín',
     initials: 'SL',
+    image: sandraLoaizaImage,
     role: 'Facilitadora de taller',
     type: 'workshop',
     topic: 'Fotografía digital básica',

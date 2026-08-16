@@ -90,11 +90,19 @@ export function GuestModal({ guest, onClose }: GuestModalProps) {
           
           {/* Identity Block: Initials Badge + Name + Role + Topic */}
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 sm:gap-6 text-center sm:text-left">
-            <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl bg-[#E9EDC9] border-2 border-[#CCD5AE] shadow-xs flex items-center justify-center flex-shrink-0">
-              <span className="text-2xl sm:text-3xl font-black text-[#1B4332] tracking-wider">
-                {guest.initials}
-              </span>
-            </div>
+           {guest.image ? (
+  <img
+    src={guest.image}
+    alt={`Fotografía de ${guest.name}`}
+    className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-cover object-center border-2 border-[#CCD5AE] shadow-xs flex-shrink-0"
+  />
+) : (
+  <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl bg-[#E9EDC9] border-2 border-[#CCD5AE] shadow-xs flex items-center justify-center flex-shrink-0">
+    <span className="text-2xl sm:text-3xl font-black text-[#1B4332] tracking-wider">
+      {guest.initials}
+    </span>
+  </div>
+)}
 
             <div className="flex-1 min-w-0">
               <h2

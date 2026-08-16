@@ -244,12 +244,12 @@ export function AgendaTimeline() {
               <div className="w-12 h-12 rounded-xl bg-[#FDFBF7] text-[#1B4332] flex items-center justify-center mx-auto mb-3 border border-[#CCD5AE]">
                 <img
   src={aguilaImage}
-  alt="Ilustración de la creatividad como puente"
+  alt="Ilustración de la creatividad como protagonista"
   className="w-10 h-10 object-contain"
 />
               </div>
               <h4 className="text-sm font-bold text-[#1B4332] mb-1">
-                La creatividad como puente
+                La creatividad como protagonista
               </h4>
               <p className="text-xs text-[#1B4332]/80 leading-relaxed">
                 Una jornada dedicada a visibilizar y conectar las preguntas e indagaciones nacidas en las aulas escolares.

@@ -31,7 +31,7 @@ export function Footer() {
           <div className="md:col-span-6 space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/images/escudo-carlos-vieco-ortiz.png"
+                src={`${import.meta.env.BASE_URL}images/logocvo.jpeg`}
                 alt="Escudo de la Institución Educativa Carlos Vieco Ortiz"
                 className="h-12 w-12 object-contain flex-shrink-0"
               />

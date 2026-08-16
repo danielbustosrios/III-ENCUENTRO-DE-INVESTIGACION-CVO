@@ -185,7 +185,7 @@ export const GUESTS_DATA: Guest[] = [
   },
   {
     id: 'olga-ramos',
-    name: 'Olga Lucía Ramos Reyes',
+    name: 'Olga Lucía Ramos Reyes Sandra Loaiza Marín',
     initials: 'OR',
     image: olgaRamosImage,
     role: 'Facilitadora de taller',

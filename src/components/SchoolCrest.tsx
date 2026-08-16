@@ -6,7 +6,7 @@ interface SchoolCrestProps {
 export function SchoolCrest({ className = '', size = 64 }: SchoolCrestProps) {
   return (
     <img
-      src="/images/escudo-carlos-vieco-ortiz.png"
+      src={`${import.meta.env.BASE_URL}images/logocvo.jpeg`}
       alt="Escudo de la Institución Educativa Carlos Vieco Ortiz"
       className={`object-contain flex-shrink-0 select-none ${className}`}
       style={{ width: size, height: size }}

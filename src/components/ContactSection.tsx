@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Mail, MapPin, Calendar, Copy, Check, ExternalLink } from 'lucide-react';
 import { EVENT_INFO } from '../data/eventData';
 import { SchoolCrest } from './SchoolCrest';
+import movaImage from '../assets/images/mova.jpg';
 
 interface ContactSectionProps {
   onNotify: (message: string, type?: 'success' | 'info' | 'warning', title?: string) => void;
@@ -54,8 +55,12 @@ export function ContactSection({ onNotify }: ContactSectionProps) {
             className="bg-[#FFFFFF] p-6 sm:p-8 rounded-2xl md:rounded-3xl border border-[#E5E0D4] shadow-xs flex flex-col justify-between"
           >
             <div>
-              <div className="w-12 h-12 rounded-2xl bg-[#E9EDC9] text-[#1B4332] flex items-center justify-center mb-6 border border-[#CCD5AE]">
-                <MapPin className="w-6 h-6 text-[#BC6C25]" aria-hidden="true" />
+              
+             <img
+  src={movaImage}
+  alt="Instalaciones de MOVA, Centro de Innovación del Maestro"
+  className="w-24 h-16 rounded-2xl object-cover object-center mb-6 border border-[#CCD5AE] shadow-xs"
+/>
               </div>
               <span className="text-xs font-bold text-[#587B56] uppercase tracking-wider block mb-1">
                 Sede del encuentro

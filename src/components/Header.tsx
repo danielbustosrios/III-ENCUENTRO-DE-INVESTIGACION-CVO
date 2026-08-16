@@ -86,7 +86,7 @@ export function Header({ onNavigateToAgenda }: HeaderProps) {
             aria-label="Ir al inicio - Institución Educativa Carlos Vieco Ortiz"
           >
             <img
-              src="/images/escudo-carlos-vieco-ortiz.png"
+              src={`${import.meta.env.BASE_URL}images/logocvo.jpeg`}
               alt="Escudo de la Institución Educativa Carlos Vieco Ortiz"
               className="h-16 w-16 object-contain flex-shrink-0"
             />

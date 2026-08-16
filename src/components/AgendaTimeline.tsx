@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Clock, MapPin, Sparkles, Coffee, Users, GraduationCap, Mic, Presentation, CheckCircle2 } from 'lucide-react';
 import { AGENDA_ITEMS, EVENT_INFO } from '../data/eventData';
 import { AgendaItem } from '../types';
-
+import aguilaImage from '../assets/images/aguil.png';
 export function AgendaTimeline() {
   const [activeCategory, setActiveCategory] = useState<string>('all');
 
@@ -242,7 +242,11 @@ export function AgendaTimeline() {
             {/* Poster Art Aesthetic Feature Box */}
             <div className="bg-[#E9EDC9]/70 rounded-2xl p-6 border border-[#CCD5AE] text-center">
               <div className="w-12 h-12 rounded-xl bg-[#FDFBF7] text-[#1B4332] flex items-center justify-center mx-auto mb-3 border border-[#CCD5AE]">
-                <Sparkles className="w-6 h-6 text-[#BC6C25]" />
+                <img
+  src={aguilaImage}
+  alt="Ilustración de la creatividad como puente"
+  className="w-10 h-10 object-contain"
+/>
               </div>
               <h4 className="text-sm font-bold text-[#1B4332] mb-1">
                 La creatividad como puente

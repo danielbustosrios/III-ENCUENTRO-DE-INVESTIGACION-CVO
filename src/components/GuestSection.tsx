@@ -145,12 +145,22 @@ export function GuestSection() {
                   </div>
 
                   {/* Initials badge + Names */}
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-[#E9EDC9] border border-[#CCD5AE] flex items-center justify-center flex-shrink-0 shadow-2xs">
-                      <span className="text-lg sm:text-xl font-bold text-[#1B4332] tracking-wider">
-                        {guest.initials}
-                      </span>
-                    </div>
+<div className="flex items-center gap-4 mb-4">
+  {guest.image ? (
+    <img
+      src={guest.image}
+      alt={`Fotografía de ${guest.name}`}
+      className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl object-cover object-center border border-[#CCD5AE] flex-shrink-0 shadow-2xs"
+      loading="lazy"
+    />
+  ) : (
+    <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-[#E9EDC9] border border-[#CCD5AE] flex items-center justify-center flex-shrink-0 shadow-2xs">
+      <span className="text-lg sm:text-xl font-bold text-[#1B4332] tracking-wider">
+        {guest.initials}
+      </span>
+    </div>
+  )}
+
 
                     <div className="min-w-0">
                       <h3 className="text-base sm:text-lg font-bold text-[#1B4332] group-hover:text-[#2D6A4F] transition-colors leading-tight">

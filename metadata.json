@@ -1,0 +1,6 @@
+{
+  "name": "III Encuentro de Investigación Escolar",
+  "description": "Sitio web oficial del III Encuentro de Investigación Escolar: «La creatividad como puente a la investigación escolar» organizado por la I.E. Carlos Vieco Ortiz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

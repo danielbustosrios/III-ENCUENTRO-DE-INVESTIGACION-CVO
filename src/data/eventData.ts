@@ -1,5 +1,4 @@
 import { AgendaItem, Guest, WorkshopLink, EventInfo } from '../types';
-
 import andresPelaezImage from '../assets/images/andres-pelaez.jpeg';
 import carlosCastanoImage from '../assets/images/carlos-castano.png';
 import linaCoralImage from '../assets/images/lina-coral.png';
@@ -106,7 +105,7 @@ export const WORKSHOP_LINKS: WorkshopLink[] = [
   {
     id: 3,
     title: 'Taller 3: Cuerpo y Mediación',
-    facilitator: 'Olga Lucía Ramos Reyes',
+    facilitator: 'Sandra Loaiza Marín',
     room: 'Salón 3',
     description: 'Consulta aquí el listado de participantes inscritos',
     pdfUrl: '#',
@@ -114,7 +113,7 @@ export const WORKSHOP_LINKS: WorkshopLink[] = [
   {
     id: 4,
     title: 'Taller 4: Fotografía digital básica',
-    facilitator: 'Sandra Loaiza Marín',
+    facilitator: 'Olga Lucía Ramos Reyes',
     room: 'Salón 4',
     description: 'Consulta aquí el listado de participantes inscritos',
     pdfUrl: '#',

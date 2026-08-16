@@ -12,6 +12,7 @@ export interface Guest {
   id: string;
   name: string;
   initials: string;
+  image?: string;
   role: string;
   type: 'conference' | 'workshop';
   topic: string;

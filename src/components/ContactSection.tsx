@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, MapPin, Calendar, Copy, Check, ExternalLink } from 'lucide-react';
+import { Mail, Calendar, Copy, Check, ExternalLink } from 'lucide-react';
 import { EVENT_INFO } from '../data/eventData';
 import { SchoolCrest } from './SchoolCrest';
 import movaImage from '../assets/images/mova.jpg';
@@ -61,7 +61,7 @@ export function ContactSection({ onNotify }: ContactSectionProps) {
   alt="Instalaciones de MOVA, Centro de Innovación del Maestro"
   className="w-24 h-16 rounded-2xl object-cover object-center mb-6 border border-[#CCD5AE] shadow-xs"
 />
-              </div>
+              
               <span className="text-xs font-bold text-[#587B56] uppercase tracking-wider block mb-1">
                 Sede del encuentro
               </span>

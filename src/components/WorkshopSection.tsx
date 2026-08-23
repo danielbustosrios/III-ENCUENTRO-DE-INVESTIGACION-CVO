@@ -84,7 +84,8 @@ export function WorkshopSection({ onNotify }: WorkshopSectionProps) {
             </h3>
             <p className="text-sm sm:text-base text-[#1B4332]/75 leading-relaxed">
               Verifica tu nombre, salón asignado y facilitador en el documento oficial en PDF de cada taller.
-
+              
+<br />
   <strong>Escritura creativa</strong>
 <br />
 <strong>Salón:</strong> Ema 1

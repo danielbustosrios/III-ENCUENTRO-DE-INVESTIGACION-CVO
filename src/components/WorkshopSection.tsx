@@ -172,19 +172,61 @@ export function WorkshopSection({ onNotify }: WorkshopSectionProps) {
                   </p>
                 </div>
 
-                  <button
-                  type="button"
-                  id={`view-pdf-btn-${workshop.id}`}
-                  onClick={() => handlePdfClick(workshop)}
-                  className="w-full flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold rounded-xl transition-all cursor-pointer bg-[#E9EDC9] text-[#1B4332] hover:bg-[#DDE5B6] border border-[#CCD5AE] focus-visible:ring-2 focus-visible:ring-[#BC6C25]"
-                  aria-label={`Ver listado en PDF para ${workshop.title}`}
-                >
-                  <FileText className="w-3.5 h-3.5 text-[#BC6C25]" aria-hidden="true" />
-                  <span>Ver listado en PDF</span>
-                  {!isPlaceholder && (
-                    <ExternalLink className="w-3 h-3 text-[#1B4332]/60" aria-hidden="true" />
-                  )}
-                </button>
+                <div className="space-y-2">
+  <button
+    type="button"
+    id={`view-pdf-btn-${workshop.id}`}
+    onClick={() => handlePdfClick(workshop)}
+    className="w-full flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold rounded-xl transition-all cursor-pointer bg-[#E9EDC9] text-[#1B4332] hover:bg-[#DDE5B6] border border-[#CCD5AE] focus-visible:ring-2 focus-visible:ring-[#BC6C25]"
+    aria-label={
+      workshop.pdfUrl2
+        ? 'Ver listado de Carlos Moncada'
+        : `Ver listado en PDF para ${workshop.title}`
+    }
+  >
+    <FileText
+      className="w-3.5 h-3.5 text-[#BC6C25]"
+      aria-hidden="true"
+    />
+    <span>
+      {workshop.pdfUrl2
+        ? 'Listado Carlos Moncada'
+        : 'Ver listado en PDF'}
+    </span>
+    {!isPlaceholder && (
+      <ExternalLink
+        className="w-3 h-3 text-[#1B4332]/60"
+        aria-hidden="true"
+      />
+    )}
+  </button>
+
+  {workshop.pdfUrl2 && (
+    <button
+      type="button"
+      id={`view-second-pdf-btn-${workshop.id}`}
+      onClick={() =>
+        window.open(
+          workshop.pdfUrl2,
+          '_blank',
+          'noopener,noreferrer'
+        )
+      }
+      className="w-full flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold rounded-xl transition-all cursor-pointer bg-[#E9EDC9] text-[#1B4332] hover:bg-[#DDE5B6] border border-[#CCD5AE] focus-visible:ring-2 focus-visible:ring-[#BC6C25]"
+      aria-label="Ver listado de Sócrates Suaza"
+    >
+      <FileText
+        className="w-3.5 h-3.5 text-[#BC6C25]"
+        aria-hidden="true"
+      />
+      <span>Listado Sócrates Suaza</span>
+      <ExternalLink
+        className="w-3 h-3 text-[#1B4332]/60"
+        aria-hidden="true"
+      />
+    </button>
+  )}
+</div>
               </div>
             );
           })}

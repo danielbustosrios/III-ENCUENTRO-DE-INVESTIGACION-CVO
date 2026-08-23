@@ -101,24 +101,21 @@ export const WORKSHOP_LINKS: WorkshopLink[] = [
     facilitator: 'Lina Marcela Coral Villota',
     room: 'Salón 2',
     description: 'Consulta aquí el listado de participantes inscritos',
-    pdfUrl: '#',
-  },
+pdfUrl: `${import.meta.env.BASE_URL}images/Edicion%20de%20video.pdf`,  },
   {
     id: 3,
     title: 'Taller 3: Cuerpo y Mediación',
     facilitator: 'Sandra Loaiza Marín',
     room: 'Salón 3',
     description: 'Consulta aquí el listado de participantes inscritos',
-    pdfUrl: '#',
-  },
+pdfUrl: `${import.meta.env.BASE_URL}images/expresion%20corporal.pdf`,  },
   {
     id: 4,
     title: 'Taller 4: Fotografía digital básica',
     facilitator: 'Olga Lucía Ramos Reyes',
     room: 'Salón 4',
     description: 'Consulta aquí el listado de participantes inscritos',
-    pdfUrl: '#',
-  },
+pdfUrl: `${import.meta.env.BASE_URL}images/fotografia.pdf`,  },
 ];
 
 /**

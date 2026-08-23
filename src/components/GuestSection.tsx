@@ -212,7 +212,7 @@ export function GuestSection() {
         {/* Note on 4 Workshops Distribution */}
         <div className="mt-10 p-4 sm:p-5 rounded-2xl bg-[#F2ECE0]/70 border border-[#E5E0D4] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-[#1B4332]/85">
           <span>
-            Los talleres prácticos se desarrollarán simultáneamente en 4 salones asignados de 10:30 a. m. a 12:30 p. m.
+            Los talleres prácticos se desarrollarán simultáneamente en 5 salones asignados de 10:30 a. m. a 12:30 p. m.
           </span>
           <span className="font-bold text-[#1B4332] whitespace-nowrap">
             I.E. Carlos Vieco Ortiz

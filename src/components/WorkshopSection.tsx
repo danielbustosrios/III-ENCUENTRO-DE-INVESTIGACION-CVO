@@ -84,13 +84,25 @@ export function WorkshopSection({ onNotify }: WorkshopSectionProps) {
             </h3>
             <p className="text-sm sm:text-base text-[#1B4332]/75 leading-relaxed">
               Verifica tu nombre, salón asignado y facilitador en el documento oficial en PDF de cada taller.
+
+Ema 1 Tallerista Carlos Moncada (Escritura creativa)
+Ema 2:  Tallerista Sócrates Suaza (Escritura creativa)
+Ema 3: Tallerista Lina Coral (Video) 
+Ema 4: Tallerista Sandra Loaiza (Fotografía)
+Bricolaje: Tallerista Olga Ramos (Expresión Corporal)
             </p>
           </div>
 
           <button
             id="open-workshops-modal-btn"
             type="button"
-            onClick={() => setModalOpen(true)}
+            onClick={() =>
+  window.open(
+    '/images/Encuentro_investigacion.xlsx',
+    '_blank',
+    'noopener,noreferrer'
+  )
+}
             className="inline-flex items-center justify-center gap-2.5 px-6 py-4 text-base font-bold text-[#FDFBF7] bg-[#1B4332] hover:bg-[#2D6A4F] active:bg-[#081C15] rounded-xl shadow-sm hover:shadow transition-all focus-visible:ring-2 focus-visible:ring-[#BC6C25] cursor-pointer whitespace-nowrap"
           >
             <FileText className="w-5 h-5 text-[#DDA15E]" aria-hidden="true" />

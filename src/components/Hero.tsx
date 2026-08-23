@@ -154,6 +154,17 @@ export function Hero({ onNotify }: HeroProps) {
                 <ExternalLink className="w-4 h-4 text-[#CCD5AE] opacity-80 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
               </a>
 
+              <a
+                id="hero-survey-btn"
+                href="https://forms.gle/vpBaSsEx5hz7qmSR6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 text-base font-bold text-[#FDFBF7] bg-[#BC6C25] hover:bg-[#A85F20] active:bg-[#8F4E19] rounded-xl shadow-sm hover:shadow transition-all focus-visible:ring-2 focus-visible:ring-[#1B4332] cursor-pointer group"
+              >
+                <span>Responder encuesta de cierre</span>
+                <ExternalLink className="w-4 h-4 text-[#F2ECE0] opacity-80 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+              </a>
+
               <button
                 id="hero-share-btn"
                 onClick={handleShare}

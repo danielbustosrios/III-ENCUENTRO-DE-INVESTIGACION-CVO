@@ -103,8 +103,8 @@ export function WorkshopSection({ onNotify }: WorkshopSectionProps) {
             type="button"
             onClick={() =>
   window.open(
-    '/images/Encuentro_investigacion.xlsx',
-    '_blank',
+`${import.meta.env.BASE_URL}images/Encuentro_investigacion.xlsx`,
+   '_blank',
     'noopener,noreferrer'
   )
 }

@@ -92,7 +92,8 @@ export const WORKSHOP_LINKS: WorkshopLink[] = [
     facilitator: 'Carlos Castaño Moncada y Sócrates Suaza Velásquez',
     room: 'Salón 1',
     description: 'Consulta aquí el listado de participantes inscritos',
-    pdfUrl: '#',
+    pdfUrl: `${import.meta.env.BASE_URL}images/escritura%20Carlos.pdf`,
+    pdfUrl2: `${import.meta.env.BASE_URL}images/escritura%20socrates.pdf`
   },
   {
     id: 2,

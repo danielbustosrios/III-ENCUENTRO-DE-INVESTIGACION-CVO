@@ -32,6 +32,7 @@ export interface WorkshopLink {
   room?: string;
   description?: string;
   pdfUrl: string;
+  pdfUrl2?: string;
 }
 
 export interface EventInfo {

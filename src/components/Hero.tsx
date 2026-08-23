@@ -230,6 +230,23 @@ export function Hero({ onNotify }: HeroProps) {
               </div>
             </div>
 
+            <a
+              href="https://forms.gle/vpBaSsEx5hz7qmSR6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 flex flex-col items-center gap-2 p-3 bg-white rounded-2xl border border-[#E5E0D4] shadow-xs hover:shadow-sm transition-shadow focus-visible:ring-2 focus-visible:ring-[#BC6C25]"
+              aria-label="Responder encuesta de cierre"
+            >
+              <img
+                src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=12&data=https%3A%2F%2Fforms.gle%2FvpBaSsEx5hz7qmSR6"
+                alt="Código QR para responder la encuesta de cierre"
+                className="w-36 h-36 sm:w-40 sm:h-40"
+                width="160"
+                height="160"
+              />
+              <span className="text-sm font-bold text-[#1B4332]">Escanea para responder</span>
+            </a>
+
             {/* Small supportive note */}
             <p className="text-xs text-[#587B56] mt-4 text-center lg:text-right max-w-xs">
               Espacio formativo y de divulgación investigativa para la comunidad educativa.

@@ -152,9 +152,6 @@ export function WorkshopSection({ onNotify }: WorkshopSectionProps) {
               >
                 <div>
                   <div className="flex items-center justify-between gap-2 mb-3">
-                    <span className="text-xs font-bold text-[#BC6C25] uppercase tracking-wider">
-                      {workshop.room || `Salón ${workshop.id}`}
-                    </span>
                     <span className="p-1.5 rounded-lg bg-[#FDFBF7] text-[#587B56] border border-[#EDE7DC]">
                       <FileText className="w-4 h-4" />
                     </span>

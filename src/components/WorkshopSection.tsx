@@ -85,16 +85,39 @@ export function WorkshopSection({ onNotify }: WorkshopSectionProps) {
             <p className="text-sm sm:text-base text-[#1B4332]/75 leading-relaxed">
               Verifica tu nombre, salón asignado y facilitador en el documento oficial en PDF de cada taller.
 
-  <br /><br />
-  Ema 1: Tallerista Carlos Moncada (Escritura creativa)
-  <br />
-  Ema 2: Tallerista Sócrates Suaza (Escritura creativa)
-  <br />
-  Ema 3: Tallerista Lina Coral (Video)
-  <br />
-  Ema 4: Tallerista Sandra Loaiza (Fotografía)
-  <br />
-  Bricolaje: Tallerista Olga Ramos (Expresión corporal)
+  <strong>Escritura creativa</strong>
+<br />
+<strong>Salón:</strong> Ema 1
+<br />
+<strong>Tallerista:</strong> Carlos Moncada
+<br /><br />
+
+<strong>Escritura creativa</strong>
+<br />
+<strong>Salón:</strong> Ema 2
+<br />
+<strong>Tallerista:</strong> Sócrates Suaza
+<br /><br />
+
+<strong>Video</strong>
+<br />
+<strong>Salón:</strong> Ema 3
+<br />
+<strong>Tallerista:</strong> Lina Coral
+<br /><br />
+
+<strong>Fotografía</strong>
+<br />
+<strong>Salón:</strong> Ema 4
+<br />
+<strong>Tallerista:</strong> Sandra Loaiza
+<br /><br />
+
+<strong>Expresión corporal</strong>
+<br />
+<strong>Salón:</strong> Bricolaje
+<br />
+<strong>Tallerista:</strong> Olga Ramos
 </p>
           </div>
 

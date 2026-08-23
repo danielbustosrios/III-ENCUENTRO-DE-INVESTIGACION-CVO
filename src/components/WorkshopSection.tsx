@@ -172,7 +172,7 @@ export function WorkshopSection({ onNotify }: WorkshopSectionProps) {
                   </p>
                 </div>
 
-                <button
+                  <button
                   type="button"
                   id={`view-pdf-btn-${workshop.id}`}
                   onClick={() => handlePdfClick(workshop)}
